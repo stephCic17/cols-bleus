@@ -13,6 +13,7 @@ global-css:
       css/teaser.css: {}
       css/alaune.css: {}
       css/basique-page.css: {}
+      css/article.css: {}
 global-js:
   js:
     js/pdfjs-dist/build/pdf.js: {}

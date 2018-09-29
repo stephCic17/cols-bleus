@@ -786,9 +786,9 @@ $settings['entity_update_batch_size'] = 50;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => 'template1',
-  'username' => 'postgres',
-  'password' => '',
+  'database' => 'db_cols_bleus',
+  'username' => 'cols_bleus',
+  'password' => 'cols_bleus',
   'prefix' => '',
   'host' => 'localhost',
   'port' => '5432',
