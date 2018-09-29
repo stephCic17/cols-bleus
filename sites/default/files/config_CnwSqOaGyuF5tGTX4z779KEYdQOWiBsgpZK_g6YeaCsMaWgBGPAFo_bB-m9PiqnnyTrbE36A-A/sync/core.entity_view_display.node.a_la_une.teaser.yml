@@ -1,0 +1,25 @@
+uuid: 1ac837bd-d21a-407e-8430-23a2fa2e15af
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.a_la_une.field_deux_elements
+    - field.field.node.a_la_une.field_trois_elements
+    - field.field.node.a_la_une.field_un_element
+    - node.type.a_la_une
+  module:
+    - user
+id: node.a_la_une.teaser
+targetEntityType: node
+bundle: a_la_une
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_deux_elements: true
+  field_trois_elements: true
+  field_un_element: true
+  langcode: true

@@ -1,0 +1,22 @@
+uuid: 95f019be-7a31-49b7-9ff5-54996ff0813a
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - endymion
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: endymion_local_tasks
+theme: endymion
+region: content
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

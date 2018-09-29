@@ -1,0 +1,29 @@
+uuid: a202cfd6-7ef5-4ec1-afee-700df012202f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.couverture_photo.field_couverture
+    - node.type.couverture_photo
+  module:
+    - image
+    - user
+id: node.couverture_photo.default
+targetEntityType: node
+bundle: couverture_photo
+mode: default
+content:
+  field_couverture:
+    weight: 101
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

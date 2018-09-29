@@ -1,0 +1,23 @@
+uuid: 77d51948-df73-4575-ba9e-8edd2c411568
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_trois_elements
+    - node.type.a_la_une
+id: node.a_la_une.field_trois_elements
+field_name: field_trois_elements
+entity_type: node
+bundle: a_la_une
+label: 'trois éléments'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

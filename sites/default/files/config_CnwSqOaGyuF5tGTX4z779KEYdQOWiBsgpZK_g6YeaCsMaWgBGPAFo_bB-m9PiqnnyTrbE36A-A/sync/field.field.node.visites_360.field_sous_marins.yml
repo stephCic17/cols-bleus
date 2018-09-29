@@ -1,0 +1,23 @@
+uuid: 567d9fca-befc-40cc-8314-cdb7b8c4644e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sous_marins
+    - node.type.visites_360
+id: node.visites_360.field_sous_marins
+field_name: field_sous_marins
+entity_type: node
+bundle: visites_360
+label: SOUS-MARINS
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

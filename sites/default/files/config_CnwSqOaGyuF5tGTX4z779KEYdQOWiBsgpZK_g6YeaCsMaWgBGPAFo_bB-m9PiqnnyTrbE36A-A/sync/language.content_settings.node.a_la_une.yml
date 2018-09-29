@@ -1,0 +1,11 @@
+uuid: 35be0220-a83b-4f57-b301-f18fc909690c
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.a_la_une
+id: node.a_la_une
+target_entity_type_id: node
+target_bundle: a_la_une
+default_langcode: site_default
+language_alterable: false

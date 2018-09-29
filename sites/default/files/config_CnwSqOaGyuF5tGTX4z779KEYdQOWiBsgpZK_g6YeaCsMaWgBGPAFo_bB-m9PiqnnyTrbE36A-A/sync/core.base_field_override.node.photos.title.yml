@@ -1,0 +1,18 @@
+uuid: e9b74f8d-f185-4e00-9620-8ac59f729f26
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.photos
+id: node.photos.title
+field_name: title
+entity_type: node
+bundle: photos
+label: 'TITRE DU DIAPORAMA'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

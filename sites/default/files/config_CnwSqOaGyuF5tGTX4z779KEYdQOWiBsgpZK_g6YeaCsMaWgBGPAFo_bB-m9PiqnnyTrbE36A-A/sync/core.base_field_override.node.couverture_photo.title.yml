@@ -1,0 +1,18 @@
+uuid: abc0bc6f-2764-42da-b991-4e37d7eb763b
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.couverture_photo
+id: node.couverture_photo.title
+field_name: title
+entity_type: node
+bundle: couverture_photo
+label: Couverture
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

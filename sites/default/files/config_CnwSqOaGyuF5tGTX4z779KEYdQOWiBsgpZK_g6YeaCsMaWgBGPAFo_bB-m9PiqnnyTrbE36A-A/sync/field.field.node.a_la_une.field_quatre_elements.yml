@@ -1,0 +1,23 @@
+uuid: 6b5c3f15-03ed-4389-a14f-00d39236a9f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_quatre_elements
+    - node.type.a_la_une
+id: node.a_la_une.field_quatre_elements
+field_name: field_quatre_elements
+entity_type: node
+bundle: a_la_une
+label: 'quatre éléments'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

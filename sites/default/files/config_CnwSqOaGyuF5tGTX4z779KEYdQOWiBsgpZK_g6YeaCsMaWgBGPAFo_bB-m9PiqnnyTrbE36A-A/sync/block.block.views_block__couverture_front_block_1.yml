@@ -1,0 +1,24 @@
+uuid: 83d9e50a-5e1a-4aed-8967-98791ee038f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.couverture_front
+  module:
+    - views
+  theme:
+    - endymion
+id: views_block__couverture_front_block_1
+theme: endymion
+region: sidebar_second
+weight: -8
+provider: null
+plugin: 'views_block:couverture_front-block_1'
+settings:
+  id: 'views_block:couverture_front-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

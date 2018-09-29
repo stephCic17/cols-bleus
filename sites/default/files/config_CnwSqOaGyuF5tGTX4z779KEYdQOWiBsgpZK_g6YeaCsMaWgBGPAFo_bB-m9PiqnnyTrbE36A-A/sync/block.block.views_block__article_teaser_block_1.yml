@@ -1,0 +1,24 @@
+uuid: 111a7fc6-912d-4669-8e8e-15af3ea40066
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.article_teaser
+  module:
+    - views
+  theme:
+    - endymion
+id: views_block__article_teaser_block_1
+theme: endymion
+region: sidebar_second
+weight: -7
+provider: null
+plugin: 'views_block:article_teaser-block_1'
+settings:
+  id: 'views_block:article_teaser-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

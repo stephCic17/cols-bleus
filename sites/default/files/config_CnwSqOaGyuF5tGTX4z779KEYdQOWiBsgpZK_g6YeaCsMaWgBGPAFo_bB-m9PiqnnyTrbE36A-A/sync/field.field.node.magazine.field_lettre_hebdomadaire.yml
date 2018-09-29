@@ -1,0 +1,23 @@
+uuid: 76753253-2fc7-409f-a69c-c186950a3ad8
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_lettre_hebdomadaire
+    - node.type.magazine
+id: node.magazine.field_lettre_hebdomadaire
+field_name: field_lettre_hebdomadaire
+entity_type: node
+bundle: magazine
+label: 'LETTRE HEBDOMADAIRE'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

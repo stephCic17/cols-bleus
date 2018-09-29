@@ -1,0 +1,19 @@
+uuid: 317dc343-e6e0-4dec-905e-48cb2a18981f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.couverture_photo
+  module:
+    - user
+id: node.couverture_photo.teaser
+targetEntityType: node
+bundle: couverture_photo
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

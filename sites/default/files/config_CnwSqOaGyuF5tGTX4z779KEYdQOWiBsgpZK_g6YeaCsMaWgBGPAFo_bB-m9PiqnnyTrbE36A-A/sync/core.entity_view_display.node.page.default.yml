@@ -1,0 +1,37 @@
+uuid: 517b5c31-f4e5-4e1e-8dce-8951c4a9d9f2
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.page.field_colone_droite
+    - field.field.node.page.field_colone_gauche
+    - node.type.page
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: g1S3_GLaxq4l3I9RIca5Mlz02MxI2KmOquZpHw59akM
+id: node.page.default
+targetEntityType: node
+bundle: page
+mode: default
+content:
+  field_colone_droite:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_colone_gauche:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 101
+    region: content
+hidden:
+  langcode: true

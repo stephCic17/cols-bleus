@@ -1,0 +1,11 @@
+uuid: 2131473b-0675-4040-a489-8daa074043f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.couverture_photo
+id: node.couverture_photo
+target_entity_type_id: node
+target_bundle: couverture_photo
+default_langcode: site_default
+language_alterable: false

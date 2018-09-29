@@ -1,0 +1,14 @@
+uuid: 5af1f21b-0dc0-46be-9445-adc926530ef9
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.script
+  module:
+    - user
+id: user_add_role_action.script
+label: 'Add the script role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: script

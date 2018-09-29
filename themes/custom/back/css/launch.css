@@ -1,0 +1,61 @@
+/***
+
+CSS: block image launch;
+
+***/
+#launch {
+	top:0;
+	width: auto;
+	height: 100vh;
+	background-image:url("/colsbleu/themes/custom/endymion/img/cdg.jpg");
+
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#image-launch {
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+}
+#image-launch img{
+	min-width: 100%;
+	max-height: 100%;
+	
+
+}
+#image-launch a {
+	height: 0px;
+}
+#title-launch {
+	position: absolute;
+	z-index: 2;
+	bottom: 10vh;
+	margin-left: 62px;
+}
+
+#title-launch h3 {
+	color: #FFF;
+	font-size: 30px;
+	font-weight: normal;
+}
+
+#title-launch h2 {
+	color: #FFF;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+#link-launch {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+#link-launch img {
+	position: absolute;
+	z-index: 3;
+	width: 61px;
+	bottom: 5vh;
+
+}

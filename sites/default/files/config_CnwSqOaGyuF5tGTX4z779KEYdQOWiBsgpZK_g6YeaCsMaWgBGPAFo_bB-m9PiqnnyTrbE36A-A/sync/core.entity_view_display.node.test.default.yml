@@ -1,0 +1,64 @@
+uuid: 4196a1bd-9b27-4564-b7f5-a9ddfb882bbb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.test.body
+    - field.field.node.test.field_a
+    - field.field.node.test.field_s
+    - field.field.node.test.field_xx
+    - node.type.test
+  module:
+    - file
+    - image
+    - pdfpreview
+    - text
+    - user
+id: node.test.default
+targetEntityType: node
+bundle: test
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_a:
+    weight: 104
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  field_s:
+    weight: 103
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_xx:
+    weight: 102
+    label: above
+    settings:
+      show_description: false
+      tag: span
+      fallback_formatter: file_default
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: pdfpreview
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

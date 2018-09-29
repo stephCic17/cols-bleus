@@ -1,0 +1,14 @@
+uuid: ccc6b3c7-d649-43d2-86eb-c6f3d284d944
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.valideur
+  module:
+    - user
+id: user_add_role_action.valideur
+label: 'Add the valideur role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: valideur

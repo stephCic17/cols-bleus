@@ -1,0 +1,21 @@
+uuid: 18706f75-0645-4d45-b520-374441e9eb28
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_colone_gauche
+    - node.type.page
+  module:
+    - text
+id: node.page.field_colone_gauche
+field_name: field_colone_gauche
+entity_type: node
+bundle: page
+label: 'Colone gauche'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

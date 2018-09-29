@@ -1,0 +1,22 @@
+uuid: 5d3a8620-6572-44a9-8ae8-19db61242a44
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.visites_360
+id: node.visites_360.promote
+field_name: promote
+entity_type: node
+bundle: visites_360
+label: 'Promu en page d''accueil'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

@@ -1,0 +1,18 @@
+uuid: 03acfaba-a6d7-4b02-95df-5689f3b5c904
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_snsm_
+field_name: field_snsm_
+entity_type: node
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

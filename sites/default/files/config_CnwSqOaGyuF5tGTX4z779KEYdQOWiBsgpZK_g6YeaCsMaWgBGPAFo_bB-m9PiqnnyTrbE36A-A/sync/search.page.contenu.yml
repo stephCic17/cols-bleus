@@ -1,0 +1,14 @@
+uuid: 879a15d7-8498-415f-b8f4-8a5cf8798ffc
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+id: contenu
+label: Contenu
+path: result
+weight: 0
+plugin: node_search
+configuration:
+  rankings:
+    relevance: 3

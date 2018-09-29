@@ -1,0 +1,14 @@
+uuid: 893f5c94-9c33-4cd7-886f-e2c16a465f21
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.valideur
+  module:
+    - user
+id: user_remove_role_action.valideur
+label: 'Remove the valideur role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: valideur

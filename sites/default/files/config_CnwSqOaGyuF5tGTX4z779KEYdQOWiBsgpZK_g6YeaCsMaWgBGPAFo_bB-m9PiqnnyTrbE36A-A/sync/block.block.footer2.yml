@@ -1,0 +1,24 @@
+uuid: 24ad512f-79eb-43ce-a2b5-16643d789a7a
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer-2
+  module:
+    - system
+  theme:
+    - endymion
+id: footer2
+theme: endymion
+region: footer
+weight: -7
+provider: null
+plugin: 'system_menu_block:footer-2'
+settings:
+  id: 'system_menu_block:footer-2'
+  label: footer-2
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

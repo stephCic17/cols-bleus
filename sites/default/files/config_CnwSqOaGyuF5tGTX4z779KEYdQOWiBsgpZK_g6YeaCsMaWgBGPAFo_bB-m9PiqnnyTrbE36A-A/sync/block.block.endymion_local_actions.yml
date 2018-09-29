@@ -1,0 +1,20 @@
+uuid: 8668c016-30f8-4489-baf7-5df114e59302
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - endymion
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: endymion_local_actions
+theme: endymion
+region: content
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

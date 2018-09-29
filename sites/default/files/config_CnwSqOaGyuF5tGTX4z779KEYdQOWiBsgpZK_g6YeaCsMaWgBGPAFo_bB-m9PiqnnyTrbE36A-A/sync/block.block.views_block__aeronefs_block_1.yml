@@ -1,0 +1,24 @@
+uuid: a9835d04-837d-4f43-8c6a-b88d7cdbbac9
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.aeronefs
+  module:
+    - views
+  theme:
+    - endymion
+id: views_block__aeronefs_block_1
+theme: endymion
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:aeronefs-block_1'
+settings:
+  id: 'views_block:aeronefs-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

@@ -1,0 +1,24 @@
+uuid: aa744d82-0407-4fd1-9982-e7a29c7042d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.h
+  module:
+    - views
+  theme:
+    - endymion
+id: views_block__h_block_1
+theme: endymion
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:h-block_1'
+settings:
+  id: 'views_block:h-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

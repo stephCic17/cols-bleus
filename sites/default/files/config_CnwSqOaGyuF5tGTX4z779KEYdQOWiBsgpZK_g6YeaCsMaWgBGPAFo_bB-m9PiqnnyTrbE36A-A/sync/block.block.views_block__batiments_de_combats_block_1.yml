@@ -1,0 +1,24 @@
+uuid: 5986953b-9ea3-41bb-971e-6a7c055034bb
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.batiments_de_combats
+  module:
+    - views
+  theme:
+    - endymion
+id: views_block__batiments_de_combats_block_1
+theme: endymion
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:batiments_de_combats-block_1'
+settings:
+  id: 'views_block:batiments_de_combats-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

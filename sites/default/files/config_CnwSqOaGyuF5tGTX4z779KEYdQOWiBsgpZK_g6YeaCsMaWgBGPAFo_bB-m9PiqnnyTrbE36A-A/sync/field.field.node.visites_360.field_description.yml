@@ -1,0 +1,21 @@
+uuid: c3d9807a-ac8a-4675-9a16-68995170339d
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_description
+    - node.type.visites_360
+  module:
+    - text
+id: node.visites_360.field_description
+field_name: field_description
+entity_type: node
+bundle: visites_360
+label: DESCRIPTION
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

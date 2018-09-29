@@ -1,0 +1,24 @@
+uuid: bdf9bda1-9ddc-450f-ad22-b829d3fa3d39
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.a_la_une
+  module:
+    - views
+  theme:
+    - endymion
+id: views_block__a_la_une_block_1
+theme: endymion
+region: sidebar_second
+weight: -10
+provider: null
+plugin: 'views_block:a_la_une-block_1'
+settings:
+  id: 'views_block:a_la_une-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

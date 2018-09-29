@@ -1,0 +1,24 @@
+uuid: d095086d-777b-43d2-ad16-6c325125a4ae
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.batiments_de_soutiens
+  module:
+    - views
+  theme:
+    - endymion
+id: views_block__batiments_de_soutiens_block_1
+theme: endymion
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:batiments_de_soutiens-block_1'
+settings:
+  id: 'views_block:batiments_de_soutiens-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

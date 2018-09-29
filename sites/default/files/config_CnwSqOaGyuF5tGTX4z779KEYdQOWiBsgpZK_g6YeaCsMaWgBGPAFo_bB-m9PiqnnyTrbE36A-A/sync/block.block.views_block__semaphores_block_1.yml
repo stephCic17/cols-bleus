@@ -1,0 +1,24 @@
+uuid: 67db7683-efe3-4433-91d5-67cba45f01c7
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.semaphores
+  module:
+    - views
+  theme:
+    - endymion
+id: views_block__semaphores_block_1
+theme: endymion
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:semaphores-block_1'
+settings:
+  id: 'views_block:semaphores-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

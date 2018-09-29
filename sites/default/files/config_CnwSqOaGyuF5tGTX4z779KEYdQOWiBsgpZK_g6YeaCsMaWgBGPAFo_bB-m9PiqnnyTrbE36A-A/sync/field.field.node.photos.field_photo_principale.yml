@@ -1,0 +1,38 @@
+uuid: 5f2d9a9d-4836-436d-8a27-e657e7fbad3f
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_photo_principale
+    - node.type.photos
+  module:
+    - image
+id: node.photos.field_photo_principale
+field_name: field_photo_principale
+entity_type: node
+bundle: photos
+label: 'PHOTO PRINCIPALE'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

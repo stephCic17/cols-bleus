@@ -1,0 +1,24 @@
+uuid: 3b12698c-cfce-41c2-86bb-284e2c4d3ecc
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.snsm
+  module:
+    - views
+  theme:
+    - endymion
+id: views_block__snsm_block_1
+theme: endymion
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:snsm-block_1'
+settings:
+  id: 'views_block:snsm-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

@@ -1,0 +1,23 @@
+uuid: 797ed0e4-43e2-4fa7-abf4-048a09fd5c73
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hors_serie
+    - node.type.magazine
+id: node.magazine.field_hors_serie
+field_name: field_hors_serie
+entity_type: node
+bundle: magazine
+label: HORS-SÉRIE
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

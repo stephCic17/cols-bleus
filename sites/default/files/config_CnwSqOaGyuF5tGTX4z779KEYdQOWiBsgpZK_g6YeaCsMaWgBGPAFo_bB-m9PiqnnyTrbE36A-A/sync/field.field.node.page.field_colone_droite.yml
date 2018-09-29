@@ -1,0 +1,21 @@
+uuid: f8907031-c6ff-4e83-97dd-38740dae4cdf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_colone_droite
+    - node.type.page
+  module:
+    - text
+id: node.page.field_colone_droite
+field_name: field_colone_droite
+entity_type: node
+bundle: page
+label: 'colone droite'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

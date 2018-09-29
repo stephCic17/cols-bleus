@@ -1,0 +1,23 @@
+uuid: c26efaf9-04e8-4261-acd4-15e34b1e0199
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_archive_numerisee
+    - node.type.magazine
+id: node.magazine.field_archive_numerisee
+field_name: field_archive_numerisee
+entity_type: node
+bundle: magazine
+label: 'ARCHIVE NUMÉRISÉE'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

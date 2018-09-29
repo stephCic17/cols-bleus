@@ -1,0 +1,23 @@
+uuid: 31a7a46f-6916-4056-b18d-e8e2a4d89336
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_snsm_
+    - node.type.visites_360
+id: node.visites_360.field_snsm_
+field_name: field_snsm_
+entity_type: node
+bundle: visites_360
+label: 'SNSM '
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

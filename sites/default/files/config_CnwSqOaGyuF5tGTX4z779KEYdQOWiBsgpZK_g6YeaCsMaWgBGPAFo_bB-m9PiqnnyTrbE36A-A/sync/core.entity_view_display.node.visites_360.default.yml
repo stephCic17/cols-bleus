@@ -1,0 +1,129 @@
+uuid: 4ceefc17-544c-4976-bb90-d02896bd9845
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.visites_360.field_aeronefs
+    - field.field.node.visites_360.field_batiments_de_combat
+    - field.field.node.visites_360.field_batiments_de_soutien_
+    - field.field.node.visites_360.field_description
+    - field.field.node.visites_360.field_hotel_de_la_marine
+    - field.field.node.visites_360.field_semaphores
+    - field.field.node.visites_360.field_snsm_
+    - field.field.node.visites_360.field_sous_marins
+    - field.field.node.visites_360.field_url
+    - field.field.node.visites_360.field_vignette
+    - node.type.visites_360
+  module:
+    - image
+    - link
+    - text
+    - user
+id: node.visites_360.default
+targetEntityType: node
+bundle: visites_360
+mode: default
+content:
+  field_aeronefs:
+    weight: 104
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_batiments_de_combat:
+    weight: 101
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_batiments_de_soutien_:
+    weight: 103
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_description:
+    weight: 108
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_hotel_de_la_marine:
+    weight: 107
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_semaphores:
+    weight: 105
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_snsm_:
+    weight: 106
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_sous_marins:
+    weight: 102
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_url:
+    weight: 110
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_vignette:
+    weight: 109
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

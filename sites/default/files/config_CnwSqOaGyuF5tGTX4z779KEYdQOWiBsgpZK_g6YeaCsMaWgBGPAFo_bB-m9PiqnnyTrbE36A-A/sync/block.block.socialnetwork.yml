@@ -1,0 +1,25 @@
+uuid: b9e94372-e902-4fdf-8997-ff5e7a9e6651
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ee2f2ec7-436e-46ef-8845-4cb5589ce444'
+  module:
+    - block_content
+  theme:
+    - endymion
+id: socialnetwork
+theme: endymion
+region: footer
+weight: -5
+provider: null
+plugin: 'block_content:ee2f2ec7-436e-46ef-8845-4cb5589ce444'
+settings:
+  id: 'block_content:ee2f2ec7-436e-46ef-8845-4cb5589ce444'
+  label: social-network
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

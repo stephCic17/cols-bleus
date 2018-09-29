@@ -1,0 +1,11 @@
+uuid: b6113c9c-c615-4ed0-8b9b-4b3df9ae014c
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.azimut
+id: node.azimut
+target_entity_type_id: node
+target_bundle: azimut
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,89 @@
+uuid: 78d96024-dfdd-4f29-bcb2-b1ce31a3f365
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.magazine.field_archive_numerisee
+    - field.field.node.magazine.field_date
+    - field.field.node.magazine.field_fichier
+    - field.field.node.magazine.field_hors_serie
+    - field.field.node.magazine.field_lettre_hebdomadaire
+    - field.field.node.magazine.field_mensuel
+    - node.type.magazine
+  module:
+    - datetime
+    - pdfpreview
+    - user
+id: node.magazine.default
+targetEntityType: node
+bundle: magazine
+mode: default
+content:
+  field_archive_numerisee:
+    weight: 103
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_date:
+    weight: 105
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_fichier:
+    weight: 106
+    label: above
+    settings:
+      image_style: ''
+      image_link: file
+      tag: div
+      fallback_formatter: file_default
+      show_description: 0
+    third_party_settings: {  }
+    type: pdfpreview
+    region: content
+  field_hors_serie:
+    weight: 104
+    label: above
+    settings:
+      format: boolean
+      format_custom_true: ''
+      format_custom_false: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_lettre_hebdomadaire:
+    weight: 102
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_mensuel:
+    weight: 101
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

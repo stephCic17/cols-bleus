@@ -1,0 +1,38 @@
+uuid: eb481afc-dd63-4890-b2d1-74edf493c675
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_vignette
+    - node.type.visites_360
+  module:
+    - image
+id: node.visites_360.field_vignette
+field_name: field_vignette
+entity_type: node
+bundle: visites_360
+label: VIGNETTE
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

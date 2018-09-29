@@ -1,0 +1,24 @@
+uuid: 5aa07014-0118-44eb-87a1-8f614746f069
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.sous_marins
+  module:
+    - views
+  theme:
+    - endymion
+id: views_block__sous_marins_block_1
+theme: endymion
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:sous_marins-block_1'
+settings:
+  id: 'views_block:sous_marins-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

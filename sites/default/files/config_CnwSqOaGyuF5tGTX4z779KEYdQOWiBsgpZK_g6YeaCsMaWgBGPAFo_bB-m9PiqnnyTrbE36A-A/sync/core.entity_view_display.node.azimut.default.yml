@@ -1,0 +1,28 @@
+uuid: 160ecd59-a595-4bb8-a300-d0fb98954819
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.azimut.field_fichier
+    - node.type.azimut
+  module:
+    - file
+    - user
+id: node.azimut.default
+targetEntityType: node
+bundle: azimut
+mode: default
+content:
+  field_fichier:
+    weight: 101
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

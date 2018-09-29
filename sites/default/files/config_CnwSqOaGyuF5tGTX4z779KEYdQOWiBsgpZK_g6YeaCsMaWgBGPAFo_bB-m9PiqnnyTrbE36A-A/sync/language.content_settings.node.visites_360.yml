@@ -1,0 +1,11 @@
+uuid: ac1e1e83-4b66-43ed-9685-a8424e39de41
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.visites_360
+id: node.visites_360
+target_entity_type_id: node
+target_bundle: visites_360
+default_langcode: site_default
+language_alterable: false

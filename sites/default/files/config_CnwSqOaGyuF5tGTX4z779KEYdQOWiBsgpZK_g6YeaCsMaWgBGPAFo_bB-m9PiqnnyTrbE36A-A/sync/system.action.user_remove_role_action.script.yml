@@ -1,0 +1,14 @@
+uuid: e2411e50-8bcd-41f3-b81a-6211fbd5d03b
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.script
+  module:
+    - user
+id: user_remove_role_action.script
+label: 'Remove the script role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: script

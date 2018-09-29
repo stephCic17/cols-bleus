@@ -1,0 +1,20 @@
+uuid: fe1ae825-38b7-4967-b631-ba8645af0e51
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - endymion
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: endymion_page_title
+theme: endymion
+region: content
+weight: -8
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

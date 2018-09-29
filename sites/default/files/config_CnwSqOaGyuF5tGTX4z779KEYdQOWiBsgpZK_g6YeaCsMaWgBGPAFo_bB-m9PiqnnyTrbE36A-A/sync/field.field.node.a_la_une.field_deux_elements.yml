@@ -1,0 +1,23 @@
+uuid: 487d8bcd-49d7-4eeb-b334-20e8db074f8e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_deux_elements
+    - node.type.a_la_une
+id: node.a_la_une.field_deux_elements
+field_name: field_deux_elements
+entity_type: node
+bundle: a_la_une
+label: 'deux éléments'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

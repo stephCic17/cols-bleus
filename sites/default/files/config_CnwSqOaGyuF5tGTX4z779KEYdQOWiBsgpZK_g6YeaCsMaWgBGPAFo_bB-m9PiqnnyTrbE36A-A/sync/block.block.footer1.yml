@@ -1,0 +1,24 @@
+uuid: 803b8374-0743-4cf6-8272-ce3ec2591e76
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer-1
+  module:
+    - system
+  theme:
+    - endymion
+id: footer1
+theme: endymion
+region: footer
+weight: -8
+provider: null
+plugin: 'system_menu_block:footer-1'
+settings:
+  id: 'system_menu_block:footer-1'
+  label: footer-1
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

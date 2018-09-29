@@ -1,0 +1,19 @@
+uuid: c614efe8-2fe2-41a2-a03f-54f600b8be68
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_url_text
+    - node.type.videos
+id: node.videos.field_url_text
+field_name: field_url_text
+entity_type: node
+bundle: videos
+label: URL
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

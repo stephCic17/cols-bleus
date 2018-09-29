@@ -1,0 +1,115 @@
+#menu
+{
+	background-color: rgba(0,24,94,1);
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	text-align: right;
+}
+#menu-launch
+{
+	background-color: rgba(0,24,94,1);
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+	text-align: right;
+}
+.logo {
+	float: left;
+	}
+#menu-magazine{
+	display: none;
+}
+.logo img{
+	width: 170px;
+	height: auto;
+	vertical-align: middle;
+	padding-left: 10px;
+	position:absolute;
+    top:0;
+    bottom:0;
+    margin:auto;
+}
+.primary-content
+{
+
+	display: inline-flex;
+
+}
+#block-endymion-main-menu {
+	margin-left: 150px;
+	color: white;
+}
+
+#block-endymion-main-menu ul, menu, dir {
+
+	display: inline-flex;
+	list-style-type: inherit;
+
+}
+#block-endymion-main-menu li {
+	display: block;
+	margin: 5px;
+}
+#menu a{
+	color: #fff;
+	font-size: 20px;
+	margin: 10px;
+	text-decoration: none;
+}
+#menu-launch a{
+	color: #fff;
+	font-size: 20px;
+	margin: 10px;
+	text-decoration: none;
+}
+#loupe {
+	width: 20px;
+	height: auto;
+	padding-right: 20px;
+    top:0;
+    bottom:0;
+    margin:auto;
+
+}
+
+#edit-submit
+{
+	border: none;
+	background-color: transparent;
+	color: transparent;
+	background-image:url("/colsbleu/themes/custom/endymion/img/search.svg");
+	background-repeat: no-repeat;
+	height: 20px;
+}
+
+#search {
+	margin: 10px;
+	margin-right: 0px;
+	display: inline-flex;
+}
+#find-search {
+	display: inline-flex;
+}
+#input-search {
+	display: inline-flex;
+	background-color: transparent;
+}
+input[type="search" i] { 
+	width: 500px;
+	height: 39px;
+	background-color: transparent;
+	border: 2px solid #FFF;
+	color: #FFF;
+	font-size: 15px;
+}
+input[type="search" i]::placeholder { 
+	color: #FFF;
+	opacity: 1;
+	padding-left: 3px;
+	font-weight: lighter;
+}
+#menu a.is-active {
+	text-decoration: underline;
+}

@@ -1,0 +1,36 @@
+uuid: 9002b656-aedb-4b44-a984-ba9d6ed32a25
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - search
+  theme:
+    - endymion
+id: searchform
+theme: endymion
+region: primary_menu
+weight: -8
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form'
+  provider: search
+  label_display: visible
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      a_la_une: a_la_une
+      article: article
+      azimut: azimut
+      couverture_photo: couverture_photo
+      infographies: infographies
+      magazine: magazine
+      photos: photos
+      videos: videos
+      visites_360: visites_360
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

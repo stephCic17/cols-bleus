@@ -1,0 +1,22 @@
+uuid: 85875658-b74e-4a1f-9d22-1b3f3a16bd3d
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.infographies
+id: node.infographies.promote
+field_name: promote
+entity_type: node
+bundle: infographies
+label: 'Promu en page d''accueil'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

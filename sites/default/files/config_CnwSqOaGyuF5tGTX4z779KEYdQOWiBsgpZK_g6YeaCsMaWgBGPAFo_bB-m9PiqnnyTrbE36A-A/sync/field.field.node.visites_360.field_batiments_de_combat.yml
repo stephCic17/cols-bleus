@@ -1,0 +1,23 @@
+uuid: 9707d666-559a-43a8-b555-bae2932886d8
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_batiments_de_combat
+    - node.type.visites_360
+id: node.visites_360.field_batiments_de_combat
+field_name: field_batiments_de_combat
+entity_type: node
+bundle: visites_360
+label: 'BÂTIMENTS DE COMBAT'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean
