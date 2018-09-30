@@ -92,6 +92,59 @@
     });
  }
  </script>
+ <body{{ attributes }}>
+   <div class="menu" id="menu-launch">
+      <div class="logo">
+        <a href="/cols_bleus_site"><img src="/cols_bleus_site/themes/custom/endymion/logo.svg"></a>
+      </div>
+      {{ page.primary_menu }}
+    </div>
+     <div class="menu-magazine">
+  <div class="close-dropdown">
+    <img onclick="javascript:dropdown_magazine_close('menu-magazine')" src="/cols_bleus_site/themes/custom/endymion/img/close.svg">
+  </div>
+  <div class="link-dropwdown-menu">
+    <h2><a href="/cols_bleus_site/mensuels">mensuels</a>
+      <a href="/cols_bleus_site/lettres-hebdo">lettres hebdomadaires</a>
+      <a href="/cols_bleus_site/archives">archives numérisées</a>
+      <a href="/cols_bleus_site/abonnez-vous">abonnez-vous !</a></h2>
+    </div>
+    <div class="last-publish">
+    </div>
+    <footer id="footer" role="contentinfo">
+      {{ page.footer }}
+    </footer>
+  </div>
+  <div class="menu-decouvrir">
+    <div class="close-dropdown">
+      <img onclick="javascript:dropdown_magazine_close('menu-decouvrir')" src="/cols_bleus_site/themes/custom/endymion/img/close.svg">
+    </div>
+    <div class="link-dropwdown-menu">
+      <h2><a href="/cols_bleus_site/infographies">infographies</a>
+        <a href="/cols_bleus_site/azimut">azimut</a></h2>
+      </div>
+      <div class="last-publish">
+      </div>
+      <footer id="footer" role="contentinfo">
+        {{ page.footer }}
+      </footer>
+    </div>
+    <div class="menu-image">
+      <div class="close-dropdown">
+        <img onclick="javascript:dropdown_magazine_close('menu-image')" src="/cols_bleus_site/themes/custom/endymion/img/close.svg">
+      </div>
+      <div class="link-dropwdown-menu">
+        <h2><a href="/cols_bleus_site/visites-360">visites 360</a>
+          <a href="/cols_bleus_site/photos">photos</a>
+          <a href="/cols_bleus_site/videos">vidéos</a></h2>
+        </div>
+        <div class="last-publish">
+        </div>
+        <footer id="footer" role="contentinfo">
+          {{ page.footer }}
+        </footer>
+      </div>
+
   <body{{ attributes }}>
    
 

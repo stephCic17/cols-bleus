@@ -55,6 +55,32 @@
 
       document.getElementsByClassName(id)[0].style.display = "block";
     }
+    function dropdown_magazine__launch_open(id)
+    {
+      if (id == "menu-magazine-launch")
+      {
+        document.getElementById('loupe').style.display = "none";
+        document.getElementsByClassName("menu-decouvrir-launch")[0].style.display = "none"; 
+        document.getElementsByClassName("menu-image-launch")[0].style.display = "none";
+        
+      }
+      else if (id == "menu-decouvrir-launch")
+      {
+        document.getElementById('loupe').style.display = "none";
+
+        document.getElementsByClassName("menu-magazine")[0].style.display = "none"; 
+        document.getElementsByClassName("menu-image-launch")[0].style.display = "none";
+      }
+      else if (id == "menu-image-launch")
+      {
+        document.getElementById('loupe').style.display = "none";
+
+        document.getElementsByClassName("menu-decouvrir-launch")[0].style.display = "none"; 
+        document.getElementsByClassName("menu-magazine-launch")[0].style.display = "none";
+      }
+
+      document.getElementsByClassName(id)[0].style.display = "block";
+    }
     function dropdown_magazine_close(id)
     {
       document.getElementsByClassName(id)[0].style.display = "none";
@@ -67,7 +93,7 @@
     {% import _self as menus %}
     <ul>
       <li>
-        <a href="javascript:dropdown_magazine_open('menu-magazine')" data-drupal-link-system-path="&lt;front&gt;" class="is-active">magazine</a>
+        <a href="javascript:dropdown_magazine_open('menu-magazine')" data-drupal-link-system-path="&lt;front&gt;">magazine</a>
         
       </li>
       <li>
