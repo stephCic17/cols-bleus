@@ -10,6 +10,7 @@
 }
 h2 {
 	color: rgba(0,24,94,1);
+	font-size: 2.5rem;
 	font-family: ITC Avant-Garde Gothic Std Demi;
 }
 
@@ -21,12 +22,18 @@ h2 {
 
 body {
 	margin: 0px;
-	font-size: 15px;
+	font-size: 10px;
 	font-family: roboto regular;
+
 }
 
 
 
+.layout-container {
+	max-width: 1000px;
+	margin: auto;
+
+}
 article h2 a{
 	color: rgba(0,24,94,1);
 	text-decoration: none;
@@ -41,6 +48,11 @@ article h2 a{
 	width: 100%;
 	text-align: center;
 }
+.layout-container{
+	height: 100%;
+	margin-top: 7.1%;
+}
+
 .views-element-container ul {
 	list-style-type: inherit;
 }
@@ -68,7 +80,8 @@ img[Attributes Style] {
 	height: 100px;
 }
 p {
-	color: rgba(0,24,94,1);;
+	color: rgba(11,17,76,1);
+	font-size: 1.3rem;
 }
 
 .-active {
@@ -86,10 +99,15 @@ p {
 }
 
 object {
-	width: 90%;
-	min-height: 80vh;
+	width: 100%;
+	min-height: 60vh;
 }
 #block-endymion-page-title
 {
 	margin-top: 70px;
+}
+
+#block-endymion-page-title h1 {
+	font-size: 2rem;
+	padding: 25px;
 }

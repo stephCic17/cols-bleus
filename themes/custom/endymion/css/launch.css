@@ -47,20 +47,17 @@ CSS: block image launch;
 
 #title-launch h3 {
 	color: #FFF;
-	font-size: 1.7em;
+	font-size: 4vw;
 	font-family: ITC Avant-Garde Gothic Std;
 	-webkit-margin-after: 0px;
-
 	-webkit-margin-before: 0px;
 }
 
 #title-launch h2 {
 	color: #FFF;
 	font-weight: bold;
-	font-size: 1.9em;
-
+	font-size: 6vw;
 	-webkit-margin-before: 0px;
-
 	-webkit-margin-after: 0px;
 }
 
